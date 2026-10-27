@@ -39,7 +39,7 @@ end
 local function select_item()
     update_items()
     local item = menuItems[menuSelection]
-    elseif item == "NOVO QUIZ" then
+    if item == "NOVO QUIZ" then
         if Base.start() then
             close_menu()
             djui_chat_message_create("\\#00FF75\\QuizLab: novo quiz iniciado!")
