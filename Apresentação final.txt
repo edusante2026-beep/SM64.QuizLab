@@ -1,0 +1,58 @@
+Apresentação do QuizLab v2.1
+
+O QuizLab é um mod que desenvolvi para o Super Mario 64 Co-op DX 1.5.1. A ideia inicial era criar um sistema de perguntas e respostas dentro do jogo, mas, durante o desenvolvimento, acabei expandindo bastante o projeto.
+
+Vou apresentar algumas das principais funcionalidades que implementei.
+
+1. Perguntas e respostas
+
+Criei um sistema de quiz com perguntas de múltipla escolha, cada uma com quatro alternativas: A, B, C e D.
+
+Os jogadores podem responder diretamente pelo chat, e o sistema verifica automaticamente se a resposta está correta ou não.
+
+Também adicionei comandos para iniciar, parar e avançar o quiz, além de selecionar novas perguntas.
+
+2. Sistema de pontuação
+
+Implementei um sistema que registra os pontos dos jogadores e permite acompanhar o desempenho durante a partida.
+
+Também desenvolvi uma página de placar para organizar e visualizar as pontuações.
+
+3. HUD e menus personalizados
+
+Criei uma interface própria para o QuizLab, com um visual personalizado e diferentes páginas:
+
+- Quiz: mostra as perguntas e alternativas.
+- Placar: apresenta as pontuações.
+- Configurações: permite personalizar algumas opções.
+- Informações: apresenta informações do projeto e é destinada ao host.
+
+Também trabalhei no tamanho dos painéis e na organização dos elementos para que a interface se adapte melhor ao conteúdo.
+
+4. Animações
+
+Adicionei animações e transições entre as páginas do menu, deixando a navegação mais fluida.
+
+Em vez de simplesmente trocar de tela, os elementos se movimentam e mudam de tamanho durante as transições.
+
+5. Personalização
+
+Uma das novidades é o sistema de configurações.
+
+Adicionei duas opções de idioma, português e inglês, organizadas em um arquivo separado chamado "language.lua".
+
+Também implementei duas paletas de cores: azul e verde. A mudança afeta os diferentes tons da interface, incluindo os fundos, painéis e detalhes, mantendo a aparência consistente.
+
+6. Multiplayer e organização dos scripts
+
+Desenvolvi o sistema considerando o funcionamento multiplayer do SM64CoopDX, incluindo o acompanhamento das pontuações dos participantes.
+
+Também organizei o código em arquivos Lua separados, cada um com uma responsabilidade específica. Isso facilita bastante a manutenção e a criação de futuras atualizações.
+
+Conclusão
+
+No começo, o QuizLab era apenas uma ideia de colocar perguntas e respostas dentro do Mario 64. Hoje, ele conta com menus próprios, pontuação, multiplayer, animações, configurações e personalização visual.
+
+Meu objetivo foi transformar essa ideia em um mod completo, organizado e agradável de utilizar.
+
+Esse é o QuizLab v2.1!
